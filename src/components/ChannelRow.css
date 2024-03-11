@@ -1,0 +1,46 @@
+.channelrow {
+	display: flex;
+}
+
+
+
+.channelrow__image > img {
+	height: 140px;
+	margin-left: 50px;
+	cursor: pointer;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.channelrow__name {
+	display: flex;
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.name {
+	cursor: pointer;
+}
+
+.channelrow__name > img {
+	margin-left: 10px;
+
+}
+
+
+.channelrow__stats {
+	margin-left: 50px;
+	font-size: smaller;
+}
+
+.channelrow__description {
+	margin-top: 10px;
+	font-size: smaller;
+	margin-left: 50px;
+	width: 60%;
+}
+

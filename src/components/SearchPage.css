@@ -1,0 +1,37 @@
+body {
+	background-color: #f9f9f9;
+}
+
+.searchPage {
+	flex: 0.8;
+}
+
+.searchPage__filter {
+	display: flex;
+	align-items: center;
+	color: #606060;
+	font-size: xx-small !important;
+	margin-left: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.searchPage__filter:hover {
+	color: rgb(163, 163, 163);
+	transition: .3s;
+}
+
+
+.searchPage__filter > h2 {
+	margin-left: 10px;
+}
+
+.searchPage > hr {
+	height: 1px;
+	border: 0;
+	background-color: lightgray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 70%;
+	margin-left: 10px;
+}
